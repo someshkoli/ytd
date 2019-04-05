@@ -54,7 +54,9 @@ ROOT_URLCONF = 'mini.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            BASE_DIR+'/yt/Templates',
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
